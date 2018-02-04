@@ -27,13 +27,13 @@
     {
         "id": 1,
         "title": "Продажа природы", 
-        "videoId": 1
+        "videoId": 1,
         "noPinViews": 2,
         "price": 1234.0,
         "currency": "EUR", 
         "contentInfo": "Для видео \"Beautiful Nature\"", 
         "successOrders": 6, 
-        "totalOrders": 7,
+        "totalOrders": 7
     }, 
     {
         "id": 2, 
