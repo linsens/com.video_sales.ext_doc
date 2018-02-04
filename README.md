@@ -2,7 +2,7 @@
 
 ## Введение
 
-Для интеграции с video_sales.com используется REST API. Используемая кодировка UTF-8. Текущий url для отладки [https://video-sales.khremin.com/](https://video-sales.khremin.com/)
+Для интеграции с video_sales.com используется REST API. Используемая кодировка UTF-8. Текущий url для отладки [https://sale-video.com/](https://sale-video.com/)
 
 ## Авторизация
 
@@ -36,3 +36,5 @@
 ## [Работа с видео](videos.md)
 
 ## [Работа с плейлистами](play_lists.md)
+
+## [Работа со страницами оплаты](promo_pages.md)
