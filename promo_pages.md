@@ -29,7 +29,7 @@
         "title": "Продажа природы", 
         "videoId": 1,
         "noPinViews": 2,
-        "price": 1234.0,
+        "price": 123.0,
         "currency": "EUR", 
         "contentInfo": "Для видео \"Beautiful Nature\"", 
         "successOrders": 6, 
@@ -40,8 +40,8 @@
         "title": "", 
         "playListId": 1, 
         "price": 1000.0, 
-        "currency": "EUR", 
-        "contentInfo": "Для плейлиста \"Саша\"", 
+        "currency": "RUB", 
+        "contentInfo": "Для плейлиста \"Тестовый\"", 
         "successOrders": 2, 
         "totalOrders": 4
     }
