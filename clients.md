@@ -171,7 +171,7 @@ transactionId | Идентификатор транзакции.
 ## Списание с клиента
 * **URL**
 
-`/ext/api/v1/clients/{id}/write_off/`
+`/ext/api/v1/clients/{id}/balance/write_off/`
 
 * **Метод**
 
