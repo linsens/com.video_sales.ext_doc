@@ -25,15 +25,17 @@ api_key | API key мерчанта
 
 ```json
 {
-    "customerPhone" : "+711111111",
-    "customerEmail" :"test@test.ry",
+    "clientId" : 1,
     "currency" : "points",
-    "amount" : 12.34
+    "amount" : 12.34,
+    "couponIds": [1, 2]
 }
     
 ```
 
 Возможные значения currency - points, rubles
+
+id для couponsIds берутся из [Получение купонов клиента](clients.md/#Получение-купонов-клиента)
 
 * **Пример ответа**
 
