@@ -2,7 +2,7 @@
 
 ## Введение
 
-Для интеграции с video_sales.com используется REST API. Используемая кодировка UTF-8. Текущий url для отладки [https://sale-video.com/](https://sale-video.com/)
+Для интеграции с video_sales.com используется REST API. Используемая кодировка UTF-8. Текущий url для отладки [https://sale-video.com/](https://sale-video.com/) или [https://lk.i-bonus.me/](https://lk.i-bonus.me/)
 
 ## Авторизация
 
@@ -33,12 +33,20 @@
 }
 ```
 
+## [Работа с клиентам](clients.md)
+
+## [Работа с заказами, фискализацией](fiscal.md)
+
+## [Погашение расшаренных купонов](coupons.md)
+
+## [Списание баллов](fiscal_cash_back.md)
+
+## [Настройка системы лояльности](loyalty.md)
+
+## [Регистрация мерчанта](merchant.md)
+
 ## [Работа с видео](videos.md)
 
 ## [Работа с плейлистами](play_lists.md)
 
 ## [Работа со страницами оплаты](promo_pages.md)
-
-## [Работа с фискализацией](fiscal.md)
-
-## [Работа с клиентами](clients.md)
