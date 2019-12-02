@@ -255,7 +255,7 @@ items.name | Название товара
 
 200 OK
 
-## Создание заказа (пока не в проде)
+## Создание заказа 
 
 * **URL**
 
@@ -269,31 +269,63 @@ items.name | Название товара
 
 Отсутствуют
 
-* **Параметры данных**
+* **Пример запроса создания заказа**
 
 ```json
 {
   "order": {
+  	 "externalId": "254_1568287885776",
      "receiptType": "sale", 
-     "amountCard": 20,
-     "amountCash": 10,
-     "customerEmail": "test@test.com",
+     "amountCard": 0,
+     "amountCash": 14500,
+     "customerEmail": "firstbuyer@test.ru",
      "customerPhone": "791234567890",
-     "externalId": "12345678",
      "items": [{
-       "price": 10, 
-         "quantity": 1, 
-         "unit": "piece", 
-         "vat": 20, 
-         "name": "Капучино"
-     }]
-  },
-  "amount": 10,
-  "currency": "points",
-  "coupons": [1, 2]
+        "price": 10000, 
+        "quantity": 1, 
+        "unit": "piece", 
+        "vat": 20, 
+        "name": "Monitor"
+        },
+        {
+        "price": 3000, 
+        "quantity": 1, 
+        "unit": "piece", 
+        "vat": 20, 
+        "name": "Keyboard"
+        },
+        {
+        "price": 1500, 
+        "quantity": 1, 
+        "unit": "piece", 
+        "vat": 20, 
+        "name": "Mouse"
+        }]
+  }
 }
+```
 
-     
+* **Пример запроса создания заказа на возврат**
+```json
+{
+  "order": {
+  	 "externalId": "254_1568287885777",
+     "receiptType": "refund", 
+     "amountCard": 0,
+     "amountCash": 14500,
+     "customerEmail": "firstbuyer@test.ru",
+     "customerPhone": "791234567890",
+     "items": [{
+        "id": 63
+        },
+        {
+        "id": 64
+        },
+        {
+        "id": 65
+        }]
+  }
+}
 ```
 
 * **Описание параметров запроса**
@@ -317,6 +349,7 @@ amountCard | Сумма, оплаченная картой. Необязател
 amountCash | Сумма, оплаченная наличными. Необязательный параметр.
 customerEmail | Email покупателя. Необязательный параметр.
 customerPhone | Номер телефона покупателя. Необязательный параметр.
+items.Id | Id товара внутри системы.
 items.price | Цена товара
 items.quantity | Количество товара
 items.unit | В чем измеряется кол-во товара. piece, kg, g, L, ml 
